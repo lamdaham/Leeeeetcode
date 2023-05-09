@@ -20,8 +20,7 @@ public:
             if(!added) {
                 temp2=strs[i];
                 output.push_back({temp2});
-                sort(temp2.begin(), temp2.end());
-                indexStr.push_back(temp2);
+                indexStr.push_back(temp1);
             }
         }
         
