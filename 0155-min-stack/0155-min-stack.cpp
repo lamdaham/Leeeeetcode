@@ -30,11 +30,11 @@ public:
     }
     
     int top() {
-        return values[values.size()-1];
+        return values[pointer];
     }
     
     int getMin() {
-        return linkedMin[values.size()-1];
+        return linkedMin[pointer];
     }
 };
 
